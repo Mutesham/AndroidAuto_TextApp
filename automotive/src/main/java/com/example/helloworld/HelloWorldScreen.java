@@ -17,9 +17,6 @@ public class HelloWorldScreen extends Screen {
     @Override
     public Template onGetTemplate() {
         Row row = new Row.Builder().setTitle("Hello World, This is Sardar Mutesham").addText("This is a small demo application built to establish Desktop Head Unit (DHU) on phone.").build();
-        Row row1 = new Row.Builder().setTitle("Hello World, This is Sardar Mutesham").addText("This is a small demo application built to establish Desktop Head Unit (DHU) on phone.").build();
-        return new PaneTemplate.Builder(new Pane.Builder().addRow(row).addRow(row1).build()).setTitle("Main screen").build();
-
-
+        return new PaneTemplate.Builder(new Pane.Builder().addRow(row).build()).setTitle("Main screen").build();
     }
 }
