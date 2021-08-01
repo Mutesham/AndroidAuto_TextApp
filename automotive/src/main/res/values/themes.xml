@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.HelloWorld" parent="android:Theme.Material.Light.DarkActionBar" />
+</resources>
